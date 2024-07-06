@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kantumruy Pro", sans-serif;
+}
+
+body {
+   
+    background: #c5b8b8;
+    color:black;
+
+}
+
+.wrapper{}
+.main{  display: flex;}
+
+.main-aside{
+   background-color: aliceblue;
+
+    padding: 30px;
+    height: 100vh;
+}
+
+.nav-list{
+
+    list-style: none;
+
+}
+
+.nav-item{
+  
+    margin-top: 20px;
+}
+.nav-link{ color: #000; 
+font-weight: bold;
+text-decoration: none;
+display: flex;
+align-content: center;
+justify-content: flex-start;
+align-items: center;
+
+}
+.nav-link:hover{
+    color: #5a5454;
+}
+.nav-link:active{
+  color: #000;
+}
+.icon-paneldeprductos{
+    fill: aqua;
+}
+.icon-gestiondeproductos{
+
+    fill: #c5b8b8 !important;
+}
+.icon-pedidos{}
+.icon-suministros{}
+.icon-soporteyayuda{}
+.icon{
+    padding-right: 10px
+}
+.active{}
+.main-content{display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-items: stretch;
+align-content: flex-start;
+gap: 26px 25px;
+padding: 50px;
+}
+.box{ 
+    position: relative;
+    padding: 10px;
+    background-color: aliceblue;
+    width: 300px;
+    height: 200px;
+    text-align: left;
+    
+}
+
+.box p{
+    font-size: 19px;
+  position: relative;
+  top: 80px;
+  left: 20px;
+  font-weight: bold;
+  color: #232323;
+}
+   
+
+#panel{
+
+    /*background-color: #60AECF;
+    box-shadow: 5px 8px 10px #1394cc;*/
+    background-color: rgba(123, 233, 206, 0.50);
+    box-shadow: 5px 8px 10px #16af89;
+    background-image: url("../imagenes/patron.svg");
+    background-position: bottom right;
+    background-size: contain;
+    background-blend-mode: normal;
+    background-repeat: no-repeat;
+    
+
+}
+
+#panel:hover{
+    background-color:  rgba(155, 226, 208, .8);
+    box-shadow: 5px 8px 10px  #128b6d;
+}
+
+
+#Gestion{
+    box-shadow: 5px 8px 10px #E5A323;
+    background-color: #f1d395;
+    background-image: url("../imagenes/patron.svg");
+    background-position: bottom right;
+    background-size: contain;
+    background-blend-mode: normal;
+    background-repeat: no-repeat;
+  
+}
+    
+
+#Gestion:hover{
+    background-color: #fcd27f;
+    box-shadow: 5px 8px 10px  #b68117;
+}
+#pedidos{
+    box-shadow: 5px 8px 10px #EC6273;
+    background-color: #f5c3c8;
+    background-image: url("../imagenes/patron.svg");
+    background-position: bottom right;
+    background-size: contain;
+    background-blend-mode: normal;
+    background-repeat: no-repeat;
+}
+
+#pedidos:hover{
+    background-color:  #ffb0b8;
+    box-shadow: 5px 8px 10px  #e44457;
+}
+#suministros{
+    box-shadow: 5px 8px 10px #C97FEC;
+   
+    background-color: #dbabf1;
+    background-image: url("../imagenes/patron.svg");
+    background-position: bottom right;
+    background-size: contain;
+    background-blend-mode: normal;
+    background-repeat: no-repeat;
+}
+
+#suministros:hover{
+    background-color:  #e1baf3;
+    box-shadow: 5px 8px 10px  #a955cf;
+}
+#soporte{
+    box-shadow: 5px 8px 10px #156283;
+    background-color: #6cacf7;
+    background-image: url("../imagenes/patron.svg");
+    background-position: bottom right;
+    background-size: contain;
+    background-blend-mode: normal;
+    background-repeat: no-repeat;
+}
+
+#soporte:hover{
+    background-color:  #9ac4f5;
+    box-shadow: 5px 8px 10px  #083649;
+
+}
+/* .box:hover{
+    box-shadow: 5px 8px 10px #242729;
+    background-color: #d6d6d6 !important;
+}  */
+
+.box .icon{
+
+    position: absolute;
+
+    right: 10px;
+    width: 100px;
+}
