@@ -13,14 +13,19 @@ body {
 
 }
 
-.wrapper{}
 .main{  display: flex;}
 
-.main-aside{
-   background-color: aliceblue;
+.logo{
+    width: 250px;
+}
 
-    padding: 30px;
-    height: 100vh;
+.main-aside{
+    background-color: aliceblue;
+    padding: 30px 0px;
+    height: 1040px;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
 }
 
 .nav-list{
@@ -29,19 +34,20 @@ body {
 
 }
 
-.nav-item{
-  
-    margin-top: 20px;
+.nav-link{ 
+    color: #000; 
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 30px;
 }
-.nav-link{ color: #000; 
-font-weight: bold;
-text-decoration: none;
-display: flex;
-align-content: center;
-justify-content: flex-start;
-align-items: center;
+.nav-link:hover{
+    background: #c8b8b8;
+}
 
-}
 .nav-link:hover{
     color: #5a5454;
 }
@@ -61,15 +67,15 @@ align-items: center;
 .icon{
     padding-right: 10px
 }
-.active{}
-.main-content{display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: flex-start;
-align-items: stretch;
-align-content: flex-start;
-gap: 26px 25px;
-padding: 50px;
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    gap: 26px 25px;
+    padding: 50px;
+    padding-left: 300px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .box{ 
     position: relative;
@@ -92,7 +98,6 @@ padding: 50px;
    
 
 #panel{
-
     /*background-color: #60AECF;
     box-shadow: 5px 8px 10px #1394cc;*/
     background-color: rgba(123, 233, 206, 0.50);
@@ -102,8 +107,6 @@ padding: 50px;
     background-size: contain;
     background-blend-mode: normal;
     background-repeat: no-repeat;
-    
-
 }
 
 #panel:hover{
