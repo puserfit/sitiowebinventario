@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfica Circular</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <a  href="./index.html"><img style="width: 30px;" src="./imagenes/devolver.png" alt=""></a>
+
+    <h1>Ingresa los datos</h1>
+    <div>
+        <label for=""></label>
+        <input type="number" class="rojo">
+    </div>
+    <div>
+        <label for=""></label>
+        <input type="number" class="azul">
+    </div>
+    <div>
+        <label for=""></label>
+        <input type="number" class="amarillo">
+    </div>
+    <div>
+        <label for=""></label>
+        <input type="number" class="verde">
+    </div>
+    <div>
+        <label for=""></label>
+        <input type="number" class="morado">
+    </div>
+    <div>
+        <label for=""></label>
+        <input type="number" class="naranja">
+    </div>
+    <button cla>+</button>
+
+
+    <button type="button" onclick="recargar()">grafica</button>
+    <button type="button" onclick="reload()">Recargar</button>
+
+    <p class="puf"></p>
+    
+    
+    <canvas id="miGraficaCircular" style="max-width: 300px; max-height: 300px;" ></canvas>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -61,9 +61,7 @@ body {
 
     fill: #c5b8b8 !important;
 }
-.icon-pedidos{}
-.icon-suministros{}
-.icon-soporteyayuda{}
+
 .icon{
     padding-right: 10px
 }
@@ -71,7 +69,6 @@ body {
 .main-content{
     display: flex;
     flex-direction: row;
-    gap: 26px 25px;
     padding: 50px;
     padding-left: 300px;
     justify-content: center;
