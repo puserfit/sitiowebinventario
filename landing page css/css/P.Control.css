@@ -1,0 +1,93 @@
+body{
+    background: #bdd5d5;
+    margin: 0;
+}
+.botonDevolver{
+    width: 60px;
+    margin: 10px;
+}
+.contenedorTitulo{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    background: #714204;
+    width: 339px;
+    color: white;
+    border-radius: 15px;
+}
+#contenedorItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#items input{
+    margin: 5px;
+    border-radius: 5px;
+    height: 35px;
+    width: 200px;
+    font-size: 25px;margin: 5px;
+    border-radius: 5px;
+}
+.tablaItems{
+    display: flex;
+    flex-direction: column;
+}
+.tablaItems .titulos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.botonAgregar{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    background: #9d743e;
+    color: white;
+    font-family: cursive;
+    margin: 15px
+}
+.botonMostrar{
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    background: #9d743e;
+    color: white;
+    font-family: cursive;
+    margin: 15px
+}
+button:hover{
+    background: #e9cda8;
+    color: black;
+}
+h2{
+    background: #714204;
+    color: white;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    font-family: cursive;
+    align-items: center;
+}
+canvas{
+    max-width: 500px;
+    max-height: 500px;
+}
+.grafica2{
+    display: flex;
+    justify-content: center;
+}
+.conteneroGrafica{
+    display: flex;
+    justify-content: center;
+}
